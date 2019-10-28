@@ -18,9 +18,19 @@
     "socket.io": "^2.2.0",
     "spectre.css": "^0.5.0"
   },
+<<<<<<< HEAD
   "engines": {
     "node": "10.15.3",
     "npm": "6.x"
+=======
+  "scripts": {
+    "start": "node server/server.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "api": "nodemon ./server/server.js",
+    "dev": "concurrently \"react-scripts start\" \"nodemon server/server.js\""
+>>>>>>> f649f916010194aef3ce99f40b9d1c97901a5cfd
   },
   "devDependencies": {
     "concurrently": "^4.1.2",
